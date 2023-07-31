@@ -10,7 +10,7 @@ import time
 client = discord.Client(intents=discord.Intents.all())
 coin_id = 'neutra-finance'
 url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=' + coin_id
-bot_token = 'MTAzMDgwNTM5NTI3MjM2ODEzOA.GIroJg.2Hcjfp3xePRxPJmKga4zBMCPahFAIpPPc7Fj90'
+bot_token = '0xGery'
 
 def get_coin_info():
     response = requests.get(url)
